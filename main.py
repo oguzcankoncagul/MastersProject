@@ -37,9 +37,6 @@ for bmpNo in range(TotalBitmapQuantity):
     luts, registers = getLegUpEstimates(timestamp, mainLegUpFolder,legUpInstallDirectory)
     resourceEstimates = [luts, registers]
 
-    ##DELETE LATER##
-    print(resourceEstimates)
-
     #Producing and fetching AST file
     fetchAST(timestamp, mainLegUpFolder, scriptFolder)
 
